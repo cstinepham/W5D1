@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid $lightest-gray;
+  justify-content: center;
+  padding: 10px;
+  // justify-content: space-between;
+}
+// .language-nav {
+// 	background: white;
+// 	border: 1px solid $light-gray;
+// 	border-bottom: none;
+//
+// }
+.nav-list a {
+  margin: 0 10px;
+  font-family: $sans-serif;
+  font-size: 13px;
+}
+ .nav-list ul {
+  display: flex;
+}
+ .nav-list span {
+  text-decoration: underline;
+}
